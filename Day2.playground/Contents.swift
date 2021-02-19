@@ -4,12 +4,6 @@ import PlaygroundSupport
 import RxSwift
 import RxCocoa
 
-/// 예시를 작성하기 위한 함수.
-public func example(of description: String, action: () -> Void) {
-  print("\n--- Example of:", description, "---")
-  action()
-}
-
 
 /// 비동기적으로 데이터를 처리함
 /// just, of, from 을 이용한 기본 예시

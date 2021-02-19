@@ -3,13 +3,6 @@ import PlaygroundSupport
 import RxSwift
 import RxCocoa
 
-/// 예제를 묶기 위한 함수
-public func example(of description: String, action: () -> Void) {
-  print("\n--- Example of:", description, "---")
-  action()
-}
-
-
 
 /*
  Observable 은 subscription을 받기 전까지는 아무 일도 일어나지 않음.

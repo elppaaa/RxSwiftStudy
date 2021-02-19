@@ -6,12 +6,6 @@ import RxSwift
 import RxCocoa
 
 
-/// 예제를 묶기 위한 함수
-public func example(of description: String, action: () -> Void) {
-  print("\n--- Example of:", description, "---")
-  action()
-}
-
 /// 에러 타입 열거형.
 enum MyError: Error {
   case anError

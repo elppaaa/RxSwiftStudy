@@ -5,12 +5,6 @@ import PlaygroundSupport
 import RxSwift
 import RxRelay
 
-/// 예제를 묶기 위한 함수
-public func example(of description: String, action: () -> Void) {
-  print("\n--- Example of:", description, "---")
-  action()
-}
-
 /*
  distinctUntilChanged 는 이전에 방출된 것과 동일한지 확하여 prevent.
  기본적으로 구현되어 있으며 커스터마이징 할 수 있음.
